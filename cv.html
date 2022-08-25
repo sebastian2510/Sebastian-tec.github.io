@@ -10,12 +10,30 @@
     </head>
     <!-- Set background color to grey and all text to white -->
     <body style="background-color:rgb(100, 100, 100)" class="text-white"> 
-        
-        <!-- Create container with a border-->
+
+        <div class="container-fluid">
+            <nav class="navbar navbar-light fixed-top bg-dark justify-content-between">
+              <a class="navbar-brand"></a>
+              <form class="form-inline">
+                  <div class="dropdown w-0">
+                      <button type="button" class="btn btn-primary dropdown-toggle me-md-1" data-bs-toggle="dropdown">Sociale medier</button>
+                      <ul style="background-color:rgb(100, 100, 100)" class="dropdown-menu border border-primary">
+                        <li><a class="dropdown-item text-white" href="https://github.com/Sebastian-tec" target="_blank">Github</a></li>
+                        <li><a class="dropdown-item text-white" href="https://discordapp.com/users/1009395554234662934" target="_blank">Discord</a></li>
+                      </ul>
+                      <a href="index.html" class="btn btn-primary me-md-1">Forside</a>
+                      <a href="cv.html" class="btn btn-primary me-md-1">CV</a>
+                      <a href="portfolio.html" class="btn btn-primary me-md-3">Portfolio</a>
+                    </div>
+                  </form>
+            </nav>
+        </div>
+
         <div class="container p-5 my-5 border">
-            <!-- Create buttons to go through diff. pages and back to mainpage -->
             <h1><a href="./index.html" class="btn btn-primary">Forside</a><span class="float-end"><a href="./portfolio.html" class="btn btn-primary">Portfolio</a></span></h1>
             <div class="container p-5 my-5 border">
+                <img src="./mig.jpg" class="rounded float-end border border" width="250"></img>
+
                 <h1>Personlige informationer</h1>
                 <ul class="list-unstyled"> <!-- Prettier format :sparkles: -->
                     <ul>
